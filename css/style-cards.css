@@ -8,13 +8,6 @@
    align-items: center;
  }
  
- @media screen and (max-width: 767px) {
-    .content-card {
-      padding-top: 300px;
-      flex-direction: column;
-    }
- }
- 
  .card-icons {
    width: 100%;
    max-width: 300px;

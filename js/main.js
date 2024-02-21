@@ -2,22 +2,6 @@
 (function ($) {
     "use strict";
     
-    $(document).ready(function () {
-        // Manejar clics en enlaces del navbar
-        $(".nav-item.nav-link").on("click", function (event) {
-            // Prevenir el comportamiento predeterminado del enlace
-            event.preventDefault();
-
-            // Obtener el destino del enlace (id de la sección)
-            var targetId = $(this).attr("href");
-
-            // Desplazamiento suave al destino
-            $("html, body").animate({
-                scrollTop: $(targetId).offset().top
-            }, 800); // Ajusta la duración según tus preferencias
-        });
-    });
-
     // Dropdown on mouse hover
     $(document).ready(function () {
         function toggleNavbarMethod() {
